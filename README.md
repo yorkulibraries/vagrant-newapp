@@ -7,7 +7,7 @@ The following steps to provision a *development* instance of **newapp**.
 
 Clone this repo to a new vagrant-newapp folder:
 ```
-git clone https://github.com/yorkulibraries/vagrant-rails.git vagrant-newapp
+git clone https://github.com/yorkulibraries/vagrant-newapp.git vagrant-newapp
 ```
 
 Change into the vagrant-newapp directory:
