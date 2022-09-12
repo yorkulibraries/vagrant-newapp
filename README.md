@@ -1,5 +1,6 @@
 Setup a boiler plate Rails instance quickly with Vagrant and Ansible. The Ansible playbooks can also be used to deploy to a real production server in a similar fashion.
 
+Assuming you are creating a new app call **newapp** (change this to whatever your new application name is).
 
 ## Getting started
 
@@ -19,6 +20,10 @@ Clone the [ansible-rails](https://github.com/yorkulibraries/ansible-rails) proje
 ```
 git clone https://github.com/yorkulibraries/ansible-rails.git
 ```
+
+Edit the **vars/app.yml** to change the app name to your application name (eg: newapp).
+
+Edit Vagrant file and change the app name to your application name (eg: newapp).
 
 Install the Ansible dependencies.
 
