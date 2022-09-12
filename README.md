@@ -66,8 +66,6 @@ You can make changes on your local machine in **vagrant-newapp/newapp** folder a
 
 ## Running unit tests
 
-**NOTE: Assuming you have provisioned the box with the default RAILS_ENV=development.**
-
 SSH into the box as user **newapp**
 ```
 ssh newapp@127.0.0.1 -p2222
